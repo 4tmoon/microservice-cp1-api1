@@ -13,7 +13,7 @@ public class AtividadesController {
         return "A atividade de Kotlin está pendente";
     }
 
-    @GetMapping("lembreteAvaliacao")
+    @GetMapping("/lembreteAvaliacao")
     public String lembreteAvaliacao(){
         return "A próxima avaliação é de Java (23/03)";
     }
